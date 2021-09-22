@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Sudo Pizza Inn</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-md navbar-light bg-light">
+            <a href="index.html" class="navbar-brand">SUDO <span class="pizza-inn">PIZZA INN</span> </a>
+            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="navbar-nav">
+                    <a href="index.html" class="nav-item nav-link active">Home</a>
+                    <a href="about.html" class="nav-item nav-link">About</a>
+                    <a href="#" class="nav-item nav-link">Contact Us</a>
+                    <a href="#" class="nav-item nav-link disabled" tabindex="-1">Reports</a>
+                </div>
+                <div class="navbar-nav ml-auto">
+                    <a href="cart.html" class="nav-item nav-link"><img class="icon" src="img/cart.ico" alt="" srcset=""> <span class="cart-count">0</span></a>
+                    <a href="#" class="nav-item nav-link">Login</a>
+                </div>
+            </div>
+        </nav>
+        <div>
+            <div class="welcome">
+                <h2>Welcome to Sudo <span class="pizza-inn">Pizza Inn</span></h2>
+            </div>
+        </div>
+    </header>
+    <div>
+        <div>
+
+        </div>
+    </div>
+    <div class="container">
+        <!-- <div class="card">
+            <div class="card-header">Pizza</div>
+            <div class="card-body">
+                <img src="img/pizza1.jpg" alt="" srcset="">
+            </div>
+            <div class="card-body">
+                <img src="img/pizza1.jpg" alt="" srcset="">
+            </div>
+        </div> -->
+        <div class="row">
+            <div class="col-sm-4">
+                <div class="pizza-card" id="chicken-hawaiian">
+                    <img src="img/pizza1.jpg" alt="" srcset="">
+                    <!-- <img src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cGl6emF8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60" alt="" srcset=""> -->
+                    <p>Chicken Hawaiian</p>
+                    <span class="price">KSH.400</span>
+                    <button class="btn btn-success ">Buy</button>
+                    <button class="btn btn-success add-cart">Add to Cart</button>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="pizza-card" id="roast-veg-feta">
+                    <img src="img/pizza2.jpg" alt="" srcset="">
+                    <!-- <img src="https://images.unsplash.com/photo-1541745537411-b8046dc6d66c?ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8cGl6emF8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="" srcset=""> -->
+                    <p>Roast Veg & Feta</p>
+                    <span class="price">KSH.650</span>
+                    <button class="btn btn-success ">Buy</button>
+                    <button class="btn btn-success add-cart">Add to Cart</button>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="pizza-card" id="meat-deluxe">
+                    <img src="img/pizza3.jpg" alt="">
+                    <!-- <img src="https://images.unsplash.com/photo-1513104890138-7c749659a591?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8cGl6emF8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="" srcset=""> -->
+                    <p>Meat Deluxe</p>
+                    <span class="price">450 KSH</span>
+                    <button class="btn btn-success ">Buy</button>
+                    <button class="btn btn-success add-cart">Add to Cart</button>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="pizza-card" id="chicken-macon-bbq">
+                    <img src="img/pizza4.jpg" alt="" srcset="">
+                    <!-- <img src="https://images.unsplash.com/photo-1574126154517-d1e0d89ef734?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8cGl6emF8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="" srcset=""> -->
+                    <p>Chicken Macon BBQ</p>
+                    <span class="price">KSH.750</span>
+                    <button class="btn btn-success ">Buy</button>
+                    <button class="btn btn-success add-cart">Add to Cart</button>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="pizza-card" id="cheese-burger">
+                    <img src="img/pizza5.jpg" alt="" srcset="">
+                    <!-- <img src="https://images.unsplash.com/photo-1585238342024-78d387f4a707?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fHBpenphfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="" srcset=""> -->
+                    <p>Cheese Burger</p>
+                    <span class="price">KSH.500</span>
+                    <button class="btn btn-success ">Buy</button>
+                    <button class="btn btn-success add-cart">Add to Cart</button>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="pizza-card" id="chicken-beef-pepperoni">
+                    <img src="img/pizza6.jpg" alt="" srcset="">
+                    <!-- <img src="https://images.unsplash.com/photo-1571066811602-716837d681de?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fHBpenphfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="" srcset=""> -->
+                    <p>Chicken & Beef Pepperoni</p>
+                    <span class="price">KSH.550</span>
+                    <button class="btn btn-success ">Buy</button>
+                    <button class="btn btn-success add-cart">Add to Cart</button>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="pizza-card">
+                    <img src="img/pizza7.jpg" alt="" srcset="">
+                    <!-- <img src="https://images.unsplash.com/photo-1520201163981-8cc95007dd2a?ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8cGl6emF8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="" srcset=""> -->
+                    <p>Spicy Boerewors</p>
+                    <span class="price">KSH.1400</span>
+                    <button class="btn btn-success ">Buy</button>
+                    <button class="btn btn-success add-cart">Add to Cart</button>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="pizza-card">
+                    <img src="https://images.unsplash.com/photo-1601924582970-9238bcb495d9?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTV8fHBpenphfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="" srcset="">
+                    <p>Chicken & Beef Pepperoni</p>
+                    <span class="price">KSH.600</span>
+                    <button class="btn btn-success ">Buy</button>
+                    <button class="btn btn-success add-cart">Add to Cart</button>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="pizza-card">
+                    <img src="https://images.unsplash.com/photo-1593246049226-ded77bf90326?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTh8fHBpenphfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="" srcset="">
+                    <p>Pizaa With Green And Red Pepper and Cheese</p>
+                    <span class="price">KSH.1450</span>
+                    <button class="btn btn-success ">Buy</button>
+                    <button class="btn btn-success add-cart">Add to Cart</button>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="pizza-card">
+                    <img src="https://images.unsplash.com/photo-1542834369-f10ebf06d3e0?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mjl8fHBpenphfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="" srcset="">
+                    <p>Sliced Pizza</p>
+                    <span class="price">KSH.850</span>
+                    <button class="btn btn-success ">Buy</button>
+                    <button class="btn btn-success add-cart">Add to Cart</button>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="pizza-card">
+                    <img src="https://images.unsplash.com/photo-1613564834361-9436948817d1?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzN8fHBpenphfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="" srcset="">
+                    <p>Beef Pizza</p>
+                    <span class="price">KSH.1500</span>
+                    <button class="btn btn-success ">Buy</button>
+                    <button class="btn btn-success add-cart">Add to Cart</button>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="pizza-card">
+                    <img src="https://images.unsplash.com/photo-1600028068383-ea11a7a101f3?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzJ8fHBpenphfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="" srcset="">
+                    <p>Sliced Pizza with Red Sauce</p>
+                    <span class="price">KSH.2500</span>
+                    <button class="btn btn-success ">Buy</button>
+                    <button class="btn btn-success add-cart">Add to Cart</button>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="pizza-card">
+                    <img src="https://images.unsplash.com/photo-1593560708920-61dd98c46a4e?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NTF8fHBpenphfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="" srcset="">
+                    <p>Pizza with Grren Leaves on Top</p>
+                    <span class="price">KSH.1600</span>
+                    <button class="btn btn-success ">Buy</button>
+                    <button class="btn btn-success add-cart">Add to Cart</button>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="pizza-card">
+                    <img src="https://images.unsplash.com/photo-1615719413546-198b25453f85?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDh8fHBpenphfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="" srcset="">
+                    <p>Pizza With Cheese and Tomatoes</p>
+                    <span class="price">KSH.1050</span>
+                    <button class="btn btn-success ">Buy</button>
+                    <button class="btn btn-success add-cart">Add to Cart</button>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="pizza-card">
+                    <img src="https://images.unsplash.com/photo-1551978129-b73f45d132eb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NzV8fHBpenphfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="" srcset="">
+                    <p>Sliced Vegetable Pizza</p>
+                    <span class="price">KSH.1300</span>
+                    <button class="btn btn-success ">Buy</button>
+                    <button class="btn btn-success add-cart">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
